@@ -1,0 +1,120 @@
+/* Añadimos el script de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Raleway:ital,wght@0,100;1,100&display=swap');
+/* Añade estilo al texto de Batman */
+.text {
+    font-size: 22px;
+    text-align: justify;
+    padding-right: 5px; 
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+/* Añade estilo del encabezado */
+.header {
+    background-image: url("../img/header_background.jpeg");    
+    height: 100vh;
+    color: azure;
+    padding: 30px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+/* Añade estilo de los titulos */
+#h2 {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+}
+/* Añade estilo de los titulos */
+h3 {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+}
+/* Añade el estilo de la fila del contenido del Batman */
+.contenedor {
+    max-width: 39%;
+    margin: 0 auto;
+}
+/* Añade el estilo de las imagenes */
+.img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+/* Añade el estilo del pie de pagina */
+footer {
+    background-color: black;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+}
+/* Añade el estilo Especial al titulo con diferente letra */
+#especial {
+    font-size: 40px;
+    font-family: 'Merriweather', serif;
+}
+/* Añade estilo de los titulos */
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 55px;
+    max-width: 68%;
+    padding: 300px;
+    margin: 0 auto;
+}
+.BAT{
+    text-decoration: none;
+    color: red;
+    background-color: #ffffff;
+}
+/* Añade el estilo al texto que enlaza a la pagina de las fichas en IMDB */
+a {
+    color: rgb(255, 230, 0);
+    text-decoration: none;
+    background-color: #000000;
+}
+/* Añade el estilo al carousel */
+.carousel {
+	background-color:#ffffff;
+	color: rgb(0, 0, 0);
+	border-radius: 12px;
+	text-align: center;
+	font-size: 30px;
+}
+/* Añade el estilo a la tabla */
+table {
+    border: 2px #000000 solid;
+    text-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+/* Añade el estilo a los elementos de la tabla */
+td, th {
+    border: 2px #000000 solid;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+/* Empiezan las Media Query */
+@media screen and (max-width: 700px) {
+    .text {
+        font-size: 14px;
+    }
+    #h2 {
+        font-size: 27px;    
+    }
+    h3{
+        font-size: 20px;
+    }
+    h1{
+        font-size: 55px;
+        padding: 10px;
+        margin-top: 30%;
+    }
+    #especial {
+        font-size: 20px;
+    }
+}
